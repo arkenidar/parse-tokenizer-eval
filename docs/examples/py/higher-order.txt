@@ -1,0 +1,4 @@
+( do
+  ( def double ( x ) ( * x 2 ) )
+  ( def apply-twice ( f x ) ( f ( f x ) ) )
+  ( apply-twice double 3 ) )

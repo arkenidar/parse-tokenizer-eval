@@ -1,0 +1,8 @@
+( do
+  ( set n 10 )
+  ( set result 0 )
+  ( while ( > n 0 )
+    ( do
+      ( set result ( + result n ) )
+      ( set n ( - n 1 ) ) ) )
+  result )
